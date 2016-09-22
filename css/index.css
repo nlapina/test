@@ -1,9 +1,3 @@
-.version.index /* version checker */
-{
-	color: #0000E6;
-	background-color: #6FA3B0;
-}
-
 #page
 {
 	width: 100%;
@@ -12,40 +6,23 @@
 
 .header
 {
-	z-index: 100;
-	width: 70%;
 	padding: 30px 15%;
-	position: fixed;
-	top: 0;
+	background: #3b3b3b;
 	color: #fff;
 	font-size: 1em;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 
-.header--name
-{
-	font-size: 1.2em;
-	float: left;
-}
-.header--phone
-{
-	float: left;
-	line-height: 22px;
-    margin-left: 5%;
-}
 .footer
 {
-	width: 100%;
 	padding: 30px 15% 5px;
 	background: #3b3b3b;
 	color: #fff;
 	font-size: 0.8em;
-	line-height: 1em;
-}
-.footer .footer--info
-{
-	float: left;
-	margin: 0;
-	width: 25%;
+	display: flex;
+	justify-content: space-between;
 }
 .footer .footer--info .info--phone
 {
@@ -53,27 +30,15 @@
 }
 .footer .footer--link
 {
-	float: right;
-	margin: 0;
-	font-size: 1.3em;
-	text-align: right;
-	width: 40%;
+	font-size: 1.1em;
 }
 .footer .footer--link a
 {
 	color: #fff;
-	margin: 0 3%;
 }
 .footer .footer--link a:hover
 {
 	text-decoration: none;
-}
-.footer .footer--link a:last-of-type
-{
-	margin: 0 0 0 3%;
-}
-.order--form {
-	display: none;
 }
 
 @media screen and (max-width: 1399px)
