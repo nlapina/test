@@ -71,7 +71,10 @@
 .footer .footer--link a:last-of-type
 {
 	margin: 0 0 0 3%;
-}	
+}
+.order--form {
+	display: none;
+}
 
 @media screen and (max-width: 1399px)
 {
@@ -133,5 +136,5 @@
 
 @media screen and (max-width: 399px)
 {
-	
+
 }
